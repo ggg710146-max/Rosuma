@@ -21,6 +21,9 @@ body {
   display: block;
   margin: auto;
 }
+#p1 {
+  text-align: left;
+}
 .name-cen {
   text-align: center;
 }
@@ -28,13 +31,31 @@ body {
   background-color: #e1edd7;
   color: darkgreen;
 }
-.next_page {
-  text-align: right;
+.about_me {
+  font-size: 30px;
+  text-align: center;
 }
+.back_page {
+  font-size: 25px;
+  text-align: left;
+}
+
 .D7 {
   font-size: 30px;
 }
 .Sec_top {
   font-size: 60px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+.left-image {
+  width: 150px;
+  height: auto;
+}
 
+.right-text {
+  flex: 1;
 }
