@@ -1,9 +1,7 @@
-const glow = document.querySelector(".cursor-glow");
-
-document.addEventListener("mousemove", (e) => {
-  const mouseX = e.clientX;
-  const mouseY = e.clientY;
-
-  glow.style.left = `${mouseX}px`;
-  glow.style.top = `${mouseY}px`;
+window.addEventListener("scroll", () => {
+  const layers = document.querySelectorAll(".parallax");
+  layers.forEach((layer) => {
+    const speed = layer.dataset.speed;
+    layer.style.transform = `translateY(${window.scrollY * speed}px)`;
+  });
 });
