@@ -1,5 +1,25 @@
 body {
+  position: relative;
   background-color: #edf3e6;
+  overflow-x: hidden;
+}
+
+.cursor-glow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(
+    circle,
+    rgba(59, 130, 246, 0.35),
+    transparent 70%
+  );
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.2s ease;
+  z-index: 9999;
 }
 
 .head_top {
