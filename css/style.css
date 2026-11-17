@@ -8,9 +8,14 @@ body {
   background-color: #e1edd7;
   color: darkgreen;
   font-size: 100px;
+  vertical-align: top;
 }
+
 #m1 {
   height: 200px;
+}
+#m2 {
+  height: 100px;
 }
 #pic {
   display: block;
@@ -25,4 +30,11 @@ body {
 }
 .next_page {
   text-align: right;
+}
+.D7 {
+  font-size: 30px;
+}
+.Sec_top {
+  font-size: 60px;
+
 }
