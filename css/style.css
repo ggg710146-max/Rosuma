@@ -5,11 +5,21 @@ body {
 .head_top {
   display: flex;
   align-items: flex-end;
-  height: 70px;
   background-color: #e1edd7;
   color: darkgreen;
-  font-size: 50px;
+  font-size: 100px;
 }
 #m1 {
   height: 200px;
+}
+#pic {
+  display: block;
+  margin: auto;
+}
+.name-cen {
+  text-align: center;
+}
+.n1 {
+  background-color: #e1edd7;
+  color: darkgreen;
 }
