@@ -15,3 +15,10 @@ body {
   top: -130px;
   left: 300px;
 }
+#back {
+    font-size: 30px;
+}
+#next {
+    text-align: end;
+    font-size: 30px;
+}
