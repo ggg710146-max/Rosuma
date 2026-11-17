@@ -12,7 +12,7 @@ body {
 }
 
 #m1 {
-  height: 200px;
+  height: 150px;
 }
 #m2 {
   height: 100px;
@@ -43,7 +43,7 @@ body {
   text-align: left;
 }
 .t1 {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .D7 {
@@ -65,3 +65,5 @@ body {
 .right-text {
   flex: 1;
 }
+
+
