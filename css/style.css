@@ -1,0 +1,10 @@
+body {
+  background-color: #edf3e6;
+}
+
+.head_top {
+  height: 300px;
+  width: 200px;
+  padding: auto border 10px #245c36;
+  margin: 60px 40px;
+}
