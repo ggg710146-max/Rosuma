@@ -6,9 +6,12 @@ body {
   text-align: center;
 }
 .space {
-  height: 200px;
+  height: 25px;
 }
-.pic_1 {
+#pic_1 {
   height: 700px;
   width: auto;
+  position: relative;
+  top: -130px;
+  left: 300px;
 }
