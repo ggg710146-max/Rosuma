@@ -1,0 +1,14 @@
+body {
+  background-color: #edf3e6;
+}
+#a1 {
+  font-size: 50px;
+  text-align: center;
+}
+.space {
+  height: 200px;
+}
+.pic_1 {
+  height: 700px;
+  width: auto;
+}
