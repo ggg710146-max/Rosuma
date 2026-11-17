@@ -23,3 +23,6 @@ body {
   background-color: #e1edd7;
   color: darkgreen;
 }
+.next_page {
+  text-align: right;
+}
